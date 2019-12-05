@@ -1,0 +1,9 @@
+#设置IP地址
+#netsh interface ip set address "WLAN" static 172.16.151.51 255.255.255.192 172.16.151.1 1
+#设置DNS
+#netsh interface ip set dns  "WLAN"  static 114.114.114.114
+
+#设置IP地址为自动获取
+netsh interface ip set address "WLAN" dhcp
+#设置DNS地址为自动获取
+netsh interface ip set dns "WLAN" dhcp
