@@ -171,5 +171,10 @@ namespace 配置IP地址
             /// </summary>
             public string mrwg { get; set; }
         }
+
+        private void IP_Now_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

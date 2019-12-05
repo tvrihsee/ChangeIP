@@ -57,7 +57,7 @@
             this.B_execute.Name = "B_execute";
             this.B_execute.Size = new System.Drawing.Size(151, 35);
             this.B_execute.TabIndex = 0;
-            this.B_execute.Text = "更改";
+            this.B_execute.Text = "确认更改";
             this.B_execute.UseVisualStyleBackColor = true;
             this.B_execute.Click += new System.EventHandler(this.B_execute_Click);
             // 
@@ -92,7 +92,7 @@
             // 
             this.操作模式.Controls.Add(this.SetIP);
             this.操作模式.Controls.Add(this.AutoIP);
-            this.操作模式.Location = new System.Drawing.Point(28, 140);
+            this.操作模式.Location = new System.Drawing.Point(28, 121);
             this.操作模式.Name = "操作模式";
             this.操作模式.Size = new System.Drawing.Size(355, 104);
             this.操作模式.TabIndex = 4;
@@ -118,7 +118,7 @@
             this.IP配置.Controls.Add(this.文本_子网掩码);
             this.IP配置.Controls.Add(this.In_IP);
             this.IP配置.Controls.Add(this.文本_IP地址);
-            this.IP配置.Location = new System.Drawing.Point(28, 259);
+            this.IP配置.Location = new System.Drawing.Point(28, 240);
             this.IP配置.Name = "IP配置";
             this.IP配置.Size = new System.Drawing.Size(355, 110);
             this.IP配置.TabIndex = 5;
@@ -164,7 +164,7 @@
             this.按钮_测试.Name = "按钮_测试";
             this.按钮_测试.Size = new System.Drawing.Size(151, 35);
             this.按钮_测试.TabIndex = 0;
-            this.按钮_测试.Text = "测试";
+            this.按钮_测试.Text = "运行测试";
             this.按钮_测试.UseVisualStyleBackColor = true;
             this.按钮_测试.Click += new System.EventHandler(this.按钮_测试_Click);
             // 
@@ -172,11 +172,12 @@
             // 
             this.IP_Now.AutoSize = true;
             this.IP_Now.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.IP_Now.Location = new System.Drawing.Point(33, 101);
+            this.IP_Now.Location = new System.Drawing.Point(36, 78);
             this.IP_Now.Name = "IP_Now";
             this.IP_Now.Size = new System.Drawing.Size(68, 14);
             this.IP_Now.TabIndex = 6;
             this.IP_Now.Text = "当前IP：";
+            this.IP_Now.Click += new System.EventHandler(this.IP_Now_Click);
             // 
             // result
             // 
@@ -200,7 +201,7 @@
             // 文本_适配器
             // 
             this.文本_适配器.AutoSize = true;
-            this.文本_适配器.Location = new System.Drawing.Point(48, 54);
+            this.文本_适配器.Location = new System.Drawing.Point(37, 26);
             this.文本_适配器.Name = "文本_适配器";
             this.文本_适配器.Size = new System.Drawing.Size(41, 12);
             this.文本_适配器.TabIndex = 10;
@@ -210,7 +211,7 @@
             // 
             this.适配器列表.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.适配器列表.FormattingEnabled = true;
-            this.适配器列表.Location = new System.Drawing.Point(97, 49);
+            this.适配器列表.Location = new System.Drawing.Point(86, 21);
             this.适配器列表.Name = "适配器列表";
             this.适配器列表.Size = new System.Drawing.Size(240, 20);
             this.适配器列表.TabIndex = 11;
